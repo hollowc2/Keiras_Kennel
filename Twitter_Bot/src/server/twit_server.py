@@ -1,7 +1,7 @@
 import picamera
 
 
-camera = picamera.Picamera()
+camera = picamera.PiCamera()
 
 camera.capture('image.jpg')
 

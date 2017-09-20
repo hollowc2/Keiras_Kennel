@@ -36,7 +36,7 @@ def tweet_image(url, message):
 
 url = 'image.jpg'
 message = "Cheese"
-tweet_image(url)
+tweet_image(url,message)
 
 
 

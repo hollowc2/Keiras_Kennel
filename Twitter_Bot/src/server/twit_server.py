@@ -11,7 +11,7 @@ camera = picamera.PiCamera()
 camera.capture('image.jpg')
 
 
-api.update_status(status="Keira loves to eat turds")
+api.update_status(status="Keira loves to eat turds", image='image.jpg')
 
 print 'took a pic'
 
